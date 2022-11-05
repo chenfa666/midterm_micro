@@ -17,6 +17,7 @@ void fsm_simple_buttons_run () {
 			{
 				VALUE = MINIMUM_VALUE;
 				display7SEGMENT(VALUE);
+				time_out_counter = STANDBY_TIME;
 				time_out_flag = CLEAR;
 				break;
 			}
@@ -29,6 +30,7 @@ void fsm_simple_buttons_run () {
 					VALUE++;
 				}
 				time_out_flag = CLEAR;
+				time_out_counter = STANDBY_TIME;
 				display7SEGMENT(VALUE);
 				break;
 			}
@@ -41,6 +43,7 @@ void fsm_simple_buttons_run () {
 					VALUE--;
 				}
 				time_out_flag = CLEAR;
+				time_out_counter = STANDBY_TIME;
 				display7SEGMENT(VALUE);
 				break;
 
