@@ -14,8 +14,8 @@ extern int timer2_flag;
 extern int timer2_counter;
 extern int time_out_counter;
 extern int time_out_flag;
+void setTimer2(int duration);
 void setTimer1(int duration);
 void TimerRun();
-void checkCountDown();
-void timeOutChecker();
+void checkStandBy();
 #endif /* INC_SOFTWARE_TIMER_H_ */
