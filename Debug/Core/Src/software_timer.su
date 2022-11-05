@@ -1,0 +1,5 @@
+software_timer.c:20:6:setTimer1	16	static
+software_timer.c:24:6:setTimer2	16	static
+software_timer.c:29:6:checkBlinkLed	8	static
+software_timer.c:35:6:checkStandBy	8	static
+software_timer.c:49:6:TimerRun	8	static
